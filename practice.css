@@ -1,0 +1,52 @@
+
+main {
+    text-align: center;
+    background-color: rgb(7, 248, 248);
+    height: 70%;
+    line-height: 1.5rem;
+    
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    ;
+}
+#page-nav {
+    list-style: none;
+    position: fixed;
+    margin: auto;
+    background-color: whitesmoke;
+    padding: 5px;
+    border: solid 1px black
+    
+}
+header {
+    text-align: center;
+    background-color: rgb(245, 88, 27);
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+li {
+    display: inline-block;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+}
+#contact {
+    padding: 1rem 1.5rem;
+    border: solid 2px blue;
+    }
+.contact-me {
+    display:flex;
+    justify-content: space-around;
+    height: 100px;
+}
